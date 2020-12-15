@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>OBS Spotify page</title>
+</head>
+<body>
+<script>
+    // noinspection SpellCheckingInspection
+    const PARAMS = {
+        client_id: "239f5acdd7bb49cb97069c3ab8300b28",
+        redirect_uri: "http://localhost:1000/callback/",
+        response_type: "token",
+        scope: "user-read-currently-playing",
+        toString() {
+            return ("client_id=" + encodeURIComponent(this.client_id) +
+                "&redirect_uri=" + encodeURIComponent(this.redirect_uri) +
+                "&response_type=" + encodeURIComponent(this.response_type) +
+                "&scope=" + encodeURIComponent(this.scope))
+        }
+    }
+    const ENDPOINT = "https://accounts.spotify.com/authorize"
+
+    let request = ENDPOINT + "?" + PARAMS
+
+    window.location.replace(request)
+</script>
+</body>
+</html>

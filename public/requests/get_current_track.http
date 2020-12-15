@@ -1,0 +1,6 @@
+# curl -X GET "https://api.spotify.com/v1/me/player/currently-playing" -H "Authorization: Bearer {your access token}"
+GET https://api.spotify.com/v1/me/player/currently-playing
+Authorization: Bearer BQDVpRsQjbcjDMWBgPS0mwPqH8TOf3BEtBuoUNMvkqB7JGS4kvJ8FRrBCURECDGXe02gvhB0E6nU7q5MqVFR1_cIQPioccrEl7Xf4i7jO87p0RkBtoeM3efDjjt5b0ngskAellQb7RC4feFN_He9tfXZ2kaQm7Y48q7La9SOVHfVrn87W2UxUg
+
+###
+

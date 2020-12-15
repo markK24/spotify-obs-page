@@ -1,0 +1,67 @@
+GET https://api.spotify.com/v1/me/player/currently-playing
+Authorization: Bearer BQDVpRsQjbcjDMWBgPS0mwPqH8TOf3BEtBuoUNMvkqB7JGS4kvJ8FRrBCURECDGXe02gvhB0E6nU7q5MqVFR1_cIQPioccrEl7Xf4i7jO87p0RkBtoeM3efDjjt5b0ngskAellQb7RC4feFN_He9tfXZ2kaQm7Y48q7La9SOVHfVrn87W2UxUg
+
+<> 2020-12-15T205316.200.json
+
+###
+
+GET https://api.spotify.com/v1/me/player/currently-playing
+Authorization: Bearer BQDVpRsQjbcjDMWBgPS0mwPqH8TOf3BEtBuoUNMvkqB7JGS4kvJ8FRrBCURECDGXe02gvhB0E6nU7q5MqVFR1_cIQPioccrEl7Xf4i7jO87p0RkBtoeM3efDjjt5b0ngskAellQb7RC4feFN_He9tfXZ2kaQm7Y48q7La9SOVHfVrn87W2UxUg
+
+###
+
+GET https://api.spotify.com/v1/me/player/currently-playing
+Authorization: Bearer BQDVpRsQjbcjDMWBgPS0mwPqH8TOf3BEtBuoUNMvkqB7JGS4kvJ8FRrBCURECDGXe02gvhB0E6nU7q5MqVFR1_cIQPioccrEl7Xf4i7jO87p0RkBtoeM3efDjjt5b0ngskAellQb7RC4feFN_He9tfXZ2kaQm7Y48q7La9SOVHfVrn87W2UxUg
+
+###
+
+GET https://api.spotify.com/v1/me/player/currently-playing
+Authorization: Bearer BQDVpRsQjbcjDMWBgPS0mwPqH8TOf3BEtBuoUNMvkqB7JGS4kvJ8FRrBCURECDGXe02gvhB0E6nU7q5MqVFR1_cIQPioccrEl7Xf4i7jO87p0RkBtoeM3efDjjt5b0ngskAellQb7RC4feFN_He9tfXZ2kaQm7Y48q7La9SOVHfVrn87W2UxUg
+
+<> 2020-12-15T201956.200.json
+
+###
+
+GET https://api.spotify.com/v1/me/player/currently-playing
+Authorization: Bearer BQDVpRsQjbcjDMWBgPS0mwPqH8TOf3BEtBuoUNMvkqB7JGS4kvJ8FRrBCURECDGXe02gvhB0E6nU7q5MqVFR1_cIQPioccrEl7Xf4i7jO87p0RkBtoeM3efDjjt5b0ngskAellQb7RC4feFN_He9tfXZ2kaQm7Y48q7La9SOVHfVrn87W2UxUg
+
+###
+
+GET https://api.spotify.com/v1/me/player/currently-playing
+Authorization: Bearer BQAIguM_TlBkAe_D_NFJ1LUJZkm7v_oP5Icf8EXwqUQ9edqf6dYMsd5bjKH80WBOBDibWS7OUB_OOS6XthURcRazyTcY97nPT-bYIsZ1pQcSuws-FkmWtSYBo3tH2rrkp9YfB7XJoXfV87L2q3l3gwYHHNhdqebeR3p8LxyUqSgJPI0kVGjkpg
+
+<> 2020-12-15T201629.401.json
+
+###
+
+GET https://api.spotify.com/v1/me/player/currently-playing
+Authorization: Bearer BQAIguM_TlBkAe_D_NFJ1LUJZkm7v_oP5Icf8EXwqUQ9edqf6dYMsd5bjKH80WBOBDibWS7OUB_OOS6XthURcRazyTcY97nPT-bYIsZ1pQcSuws-FkmWtSYBo3tH2rrkp9YfB7XJoXfV87L2q3l3gwYHHNhdqebeR3p8LxyUqSgJPI0kVGjkpg
+
+<> 2020-12-15T191658.200.json
+
+###
+
+GET https://api.spotify.com/v1/me/player/currently-playing
+Authorization: Bearer BQAIguM_TlBkAe_D_NFJ1LUJZkm7v_oP5Icf8EXwqUQ9edqf6dYMsd5bjKH80WBOBDibWS7OUB_OOS6XthURcRazyTcY97nPT-bYIsZ1pQcSuws-FkmWtSYBo3tH2rrkp9YfB7XJoXfV87L2q3l3gwYHHNhdqebeR3p8LxyUqSgJPI0kVGjkpg
+
+<> 2020-12-15T191250.200.json
+
+###
+
+GET https://api.spotify.com/v1/me/player/currently-playing
+Authorization: Bearer BQAIguM_TlBkAe_D_NFJ1LUJZkm7v_oP5Icf8EXwqUQ9edqf6dYMsd5bjKH80WBOBDibWS7OUB_OOS6XthURcRazyTcY97nPT-bYIsZ1pQcSuws-FkmWtSYBo3tH2rrkp9YfB7XJoXfV87L2q3l3gwYHHNhdqebeR3p8LxyUqSgJPI0kVGjkpg
+
+<> 2020-12-15T191229.200.json
+
+###
+
+GET https://api.spotify.com/v1/me/player/currently-playing
+Authorization: Bearer BQAIguM_TlBkAe_D_NFJ1LUJZkm7v_oP5Icf8EXwqUQ9edqf6dYMsd5bjKH80WBOBDibWS7OUB_OOS6XthURcRazyTcY97nPT-bYIsZ1pQcSuws-FkmWtSYBo3tH2rrkp9YfB7XJoXfV87L2q3l3gwYHHNhdqebeR3p8LxyUqSgJPI0kVGjkpg
+
+###
+
+GET https://api.spotify.com/v1/me/player/currently-playing
+Authorization: Bearer BQAIguM_TlBkAe_D_NFJ1LUJZkm7v_oP5Icf8EXwqUQ9edqf6dYMsd5bjKH80WBOBDibWS7OUB_OOS6XthURcRazyTcY97nPT-bYIsZ1pQcSuws-FkmWtSYBo3tH2rrkp9YfB7XJoXfV87L2q3l3gwYHHNhdqebeR3p8LxyUqSgJPI0kVGjkpg
+
+###
+

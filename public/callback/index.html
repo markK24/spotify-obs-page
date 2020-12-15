@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>OBS Spotify page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <table>
+        <tr>
+            <td><img id="icon" src="../assets/no_image.webp" height="300" width="300" alt="image"/></td>
+            <td>
+                <table>
+                    <tr><td><p id="name">Song name</p></td></tr>
+                    <tr><td><p id="author">Song author</p></td></tr>
+                </table>
+            </td>
+        </tr>
+    </table>
+<script>
+    let hash = window.location.hash
+    let match = RegExp("#access_token=(.+)&token_type=Bearer&expires_in=(.+)").exec(hash)
+    let token = match[1]
+    let expires = match[2]
+
+    const ENDPOINT = "https://api.spotify.com/v1/me/player/currently-playing"
+
+    function updateCurrentSong() {
+        fetch(ENDPOINT, {
+            method: "GET",
+            headers: {
+                "Authorization": "Bearer " + token
+            }
+        }).then(response => {
+
+            let song = {
+                name: "No track",
+                author: "",
+                image: ""
+            }
+
+            if (response.ok) {
+                response.json().then(result => {
+                    song.name = result["item"]["name"]
+                    result["item"]["artists"].forEach(artist => {
+                        song.author += artist["name"]
+                        song.author += ", "
+                    })
+                    song.author = song.author.replace(RegExp(", $"), "")
+                    song.image = result["item"]["album"]["images"][0]["url"]
+
+                    updatePage(song)
+                })
+            } else {
+                updatePage(song)
+            }
+        }).catch(err => {
+            alert(console.log(err))
+        })
+    }
+
+    function updatePage(song) {
+        document.getElementById("name").innerText = song.name
+        document.getElementById("author").innerText = song.author
+        document.getElementById("icon").src = song.image
+    }
+
+    player = setInterval(updateCurrentSong, 1000)
+
+    setTimeout(() => {
+        clearInterval(player)
+        window.location.replace("http://localhost:1000")
+    }, expires)
+</script>
+</body>
+</html>
