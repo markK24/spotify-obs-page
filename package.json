@@ -1,7 +1,7 @@
 {
   "name": "spotify-obs-page",
-  "version": "1.0.0",
-  "description": "",
+  "version": "1.0.1",
+  "description": "Page for OBS with currently playing track from spotify",
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
